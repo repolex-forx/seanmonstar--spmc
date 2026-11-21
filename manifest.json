@@ -1,0 +1,30 @@
+{
+  "manifest_version": "1.0",
+  "org": "seanmonstar",
+  "repo": "spmc",
+  "versions": [
+    {
+      "commit": "47deaaa59ea5eea8f16e178920047f9ca5f53dea",
+      "parsed_at": "2026-11-21T23:25:59.929787+00:00",
+      "tag": "v0.3.0",
+      "filetree": "filetree/47deaaa59ea5eea8f16e178920047f9ca5f53dea.nq.gz",
+      "blobs": [
+        "blob/a9d37c560c6ab8d4afbf47eda643e8c42e857716.nq.gz",
+        "blob/8765d5f9da5a04d4ed42833f205f0edde0b73bfc.nq.gz",
+        "blob/83da933eb739071fd5aa85b091869716ccd098e8.nq.gz",
+        "blob/f62775d2bc695876b2d1995b12c0409649824459.nq.gz",
+        "blob/c24cf22729a5a979175496a7aae7718b0c9fdc88.nq.gz",
+        "blob/908d1842a14c64854fda781c6fe0dfb890e42949.nq.gz",
+        "blob/3f3bbb0dd11fa32773181d2148962ff205685241.nq.gz",
+        "blob/6b45410e13ce09760f2f11c529b8e5024e4fd071.nq.gz",
+        "blob/d6c5ffa7415a8c1e592c98996042935a16e94be5.nq.gz",
+        "blob/8d40c69575101c9834aeacae1a68c46a94c4e760.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
