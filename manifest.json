@@ -22,6 +22,20 @@
       ],
       "ast": [
         "aggregate/ast/47deaaa59ea5eea8f16e178920047f9ca5f53dea/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/47deaaa59ea5eea8f16e178920047f9ca5f53dea.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "loom",
+          "ecosystem": "CARGO",
+          "version": "0.2.2",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "loom",
+          "githubCommit": "256b55fef1efd1be08f92e9f204656b2f6547f17",
+          "githubTag": "v0.2.2",
+          "githubUrl": "https://github.com/tokio-rs/loom",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],

@@ -1,0 +1,19 @@
+[2026-11-21T23:31:13Z] === ENRICH ITERATION 1 START | repo=seanmonstar/spmc sha=47deaaa5 ===
+[2026-11-21T23:31:13Z] [iter=1] PHASE START: enrich repo=seanmonstar/spmc sha=47deaaa5 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/47deaaa5-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/47deaaa59ea5eea8f16e178920047f9ca5f53dea.nq.gz
+[2026-11-21T23:31:15Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-11-21T23:31:15Z] [iter=1] AST store loaded triples=24725 load_secs=0 mem_mb=116 MB
+[2026-11-21T23:31:15Z] [iter=1] Step 2: Finding LSP targets mem_mb=116 MB
+[2026-11-21T23:31:15Z] [iter=1] LSP targets found call_sites=275 imports=13 extends=0 implements=17 secs=0
+[2026-11-21T23:31:15Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=116 MB
+[2026-11-21T23:31:15Z] [iter=1] Position index built positions=1559 nodes_with_types=1960 secs=0 mem_mb=116 MB
+[2026-11-21T23:31:15Z] [iter=1] Step 3: Starting LSP resolution mem_mb=116 MB already_completed_types=[] already_completed_files=0
+[2026-11-21T23:31:15Z] [iter=1] Resolving target type target_type=call_site count=275
+[2026-11-21T23:31:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=1 resolved=65 errors=0 current=src/lib.rs
+[2026-11-21T23:31:46Z] [iter=1] Target type resolved target_type=call_site resolved=254 errors=0 secs=31 mem_mb=116 MB
+[2026-11-21T23:31:46Z] [iter=1] Resolving target type target_type=import_statement count=13
+[2026-11-21T23:31:52Z] [iter=1] Target type resolved target_type=import_statement resolved=13 errors=0 secs=6 mem_mb=116 MB
+[2026-11-21T23:31:52Z] [iter=1] Resolving target type target_type=implements_clause count=17
+[2026-11-21T23:31:56Z] [iter=1] Target type resolved target_type=implements_clause resolved=17 errors=0 secs=4 mem_mb=116 MB
+[2026-11-21T23:32:03Z] [iter=1] Step 5: Writing final enrichment file triples=3233
+[2026-11-21T23:32:03Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/47deaaa59ea5eea8f16e178920047f9ca5f53dea.nq.gz size_kb=47
+[2026-11-21T23:32:03Z] [iter=1] PHASE END: enrich elapsed_s=50 elapsed_min=0.8 total_triples=3233
